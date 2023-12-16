@@ -1,4 +1,5 @@
-import prisma from "@/app/db";
+import { PrismaClient } from "@/prisma/generated/client";
+const prisma = new PrismaClient()
 import React from "react";
 import Image from "next/image";
 
